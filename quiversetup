@@ -31,8 +31,8 @@ function installRequiredPackages() {
     sudo apt --yes install python3-pip
     echo ""
 
-    echo "${bold}►►► Installing MySQL...${normal}"
-    sudo apt --yes install mysql-server
+    echo "${bold}►►► Installing MariaDB...${normal}"
+    sudo apt --yes install mariadb-server
     echo ""
 
     echo "${bold}►►► Installing VirtualEnv...${normal}"
